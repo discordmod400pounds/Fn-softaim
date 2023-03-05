@@ -33,15 +33,3 @@ To collect image data for annotating and training:
 ```           
 python Softaim.py collect_data
 ```
-
-
-## Issues
-- The method of mouse movement ([SendInput](https://github.com/zeyad-mansour/Softaim/blob/45e05373036f8bd072667313c155e55735cd7f57/lib/aimbot.py#L126)) is slow. For this reason, the crosshair often lags behind a moving detection. This problem can be lessened by increasing the [pixel_increment](https://github.com/zeyad-mansour/Softaim/blob/45e05373036f8bd072667313c155e55735cd7f57/lib/aimbot.py#L56) (e.g. to 4) so fewer calls to that function are made.
-- False positives can also happen under certain lighting conditions.
-
-## Contributing
-Pull requests are welcome. If you have any suggestions, questions, or find any issues, please open an [issue](https://github.com/zeyad-mansour/Softaim/issues) and provide some detail.
-If you find this project interesting or helpful, please star the repository.
-
-## License
-This project is distributed under [GNU General Public License v3.0](https://github.com/zeyad-mansour/Softaim/blob/main/LICENSE) license.
