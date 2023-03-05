@@ -1,0 +1,1 @@
+pip install gitpython==3.1.30 setuptools==65.5.1
